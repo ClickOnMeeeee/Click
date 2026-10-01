@@ -6,23 +6,10 @@
     <title>Document</title>
 </head>
 <body>
+    
 
     <script>
-        function drawMatrix() {
-      ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
-     ctx.fillRect(0, 0, canvas.width, canvas.height);
-      drawTechLines();
-      ctx.fillStyle = "#OF0";
-ctx.font = fontSize + "px 'Orbitron', monospace";
-    for (let i = 0; i ‹ drops.length; i++) {
-    const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
-  ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-    if (drops[i] * fontSize › canvas.height && Math.random() › 0.975) {
-   drops[i] = 0;
-    }
-drops[i]++;
- }
-}
+        <style> * { background-color: green; }     </style>
     window.onload = function() {
         alert("تم التهكير بنجاح !❤️");
     };
